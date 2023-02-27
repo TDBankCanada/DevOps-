@@ -4,18 +4,20 @@ practice creating a repository - every project starts by creating a repo!!
 add resources to your repository
 work with issues and labels
 fork
-branch
+branch -switch dev/stage/master
 write commit message
 make and review pull requests
 merge changes
 
-Developer's code
+
+
+- Developer's code
 ===================
 
 function factorial(n) {
-  if (n < 0) {
+  if (b < 0) {
     return -1; // Error case
-  } else if (n == 0) {
+  } else if (b == 0) {
     return 1; // Base case
   } else {
     return n * factorial(n - 1); // Recursive case
