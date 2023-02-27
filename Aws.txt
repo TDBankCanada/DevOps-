@@ -1,0 +1,28 @@
+A sever, stores, sends,and receives data, in essense it "serves" something else and exists to provide services. A computer, software program or even a storage device may act as a server, and it may provide one service or several
+
+APLICATION LOAD BALANCING
+NETWORKING
+SCALING- VERTICAL/HORIZONTAL
+VERTICAL IS( SCALING UP OR DOWN T2 MICRO,STORAGE,GB,RAM)
+HORIZONTAL ( SCALING IN OR OUT OF INSTANCE, NODES OR SERVERS) 
+SECURITY GROUP; ADDING RULES. (HTTP,CUSTOM, IP, )
+TARGET( HTTP, IP,SSH,ETC)
+DNS(DOMAIN NAME SERVICE)
+HTTPS(423)
+HTTP(80)
+SSH(22)
+The load balancer acts as the entry point into your system.
+The listener listens for incoming connections
+The load balancer forwards requests to a target group.
+The target group consists of one or multiple targets.
+A target might be an EC2 instance, container, or internal service.
+The health check monitors the targets.
+tcp means transmission control protocol
+udp means user datagram protocol
+
+on demand instance is the one we are currently using.readily available and goes to the highest bidder
+spot instance; is cheap and can be bought through bidding.goes to the highest bidder
+reserve instance;it has be to reserved ahead.make a reservation. reserved is cheaper.
+
+stopping an instance is recoveriable
+termination an instance destroy the volumes
