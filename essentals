@@ -9,8 +9,8 @@ write commit message
 make and review pull requests
 merge changes
 
-Simple line of code
-
+Developer's code
+===================
 
 function factorial(n) {
   if (n < 0) {
