@@ -1,9 +1,9 @@
                      GitHub Essentials
 
 practice creating a repository - every project starts by creating a repo!!
-add resources to your repository
+add resources to your repository CLI mkdir/vi or GUI create a folder/file
 work with issues and labels
-fork
+fork URL
 branch toggle between  -M main/ master/development/stage
 write commit message
 make and review pull requests
