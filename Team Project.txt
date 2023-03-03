@@ -1,0 +1,51 @@
+
+
+
+
+                                                     GIT/GITBASH/GITHUB
+                                                     ==================
+
+git is a distrubted version control system, it is a DevOps toolused for source code management
+git bash is a terminal emulator shell that lets you run git command
+git hub is a remote repository where codes are published to the world and also allows people to read and write it
+
+
+Creating a Repository Owner - Username 
+Repository name Group 15
+public
+=======
+
+ The repository automatically creates command lines to be used by default to enable us work on git 
+
+    example echo "#Group15" >> READ.md
+            git innit
+            git add (Repository name)
+            git commit -m (you can give any description name)
+            git branch -M main
+            git remote add origin https://github.com/username/repositoryname.git (this link generates itself)
+            git push -u origin main 
+
+ Basic git commands
+
+ git status - displays the status of the working tree and stages area
+ git init   - intialize our environment 
+ git add    - add file contents to the index
+ git commit - commit a file (push from computer to git)
+ git log    - allows you see information of your previous commit
+
+linux commands 
+ls
+ git help   - all commands in git 
+ git clone  - clone a repository into a new directory
+ git diff   - shows changes between commits
+ git pull   - fetch from integrate with another repository or local branch
+ git push   - update remote refs alongwith associated objects
+
+fork an existing repository
+clone click on code to copy a url link to help you download to your local computer
+  ex git clone link
+
+pull a repository from local computer, push to github account. 
+
+generated TOKEN : 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
+push from github and pull into local computer
