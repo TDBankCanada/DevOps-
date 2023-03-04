@@ -1,0 +1,6 @@
+                git Merge Summary
+
+git merge is used to combine two branches
+git merge is often used in conjunction with; 
+git checkout for selecting branch and; 
+git branch -d for deleting the obsolote target branch
