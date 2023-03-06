@@ -1,0 +1,42 @@
+GitHub Essentials
+
+practice creating a repository - every project starts by creating a repo!!
+add resources to your repository
+work with issues and labels
+fork
+<<<<<<< HEAD
+branch -switch dev/stage/master
+=======
+branch
+>>>>>>> main
+write commit message
+make and review pull requests
+merge changes
+
+<<<<<<< HEAD
+
+
+- Developer's code
+===================
+
+function factorial(n) {
+  if (b < 0) {
+    return -1; // Error case
+  } else if (b == 0) {
+=======
+Simple line of code
+
+
+function factorial(n) {
+  if (n < 0) {
+    return -1; // Error case
+  } else if (n == 0) {
+>>>>>>> main
+    return 1; // Base case
+  } else {
+    return n * factorial(n - 1); // Recursive case
+  }
+}
+
+console.log(factorial(5)); // Output: 120
+
